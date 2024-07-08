@@ -1,0 +1,176 @@
+section{
+    background-image: url(../img/R.jfif);
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+}
+.item .text h1{
+    font-size: 60;
+}
+.item span{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: 30;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    position: relative;
+ bottom: 280px;;
+ left: 20;
+ padding: 40;
+
+}
+.navbar ul li a{
+font-size: 25;
+color: white;
+position: absolute;
+top: 0;
+left: 0;
+}
+.navbar {
+    background-color: black;
+    width: 17%;
+    height: 1000;
+    position: fixed;
+ top: 0;
+left: 0;
+}
+.navbar ul li a:hover{
+    color: rgb(161, 0, 0);
+}
+.sectionTwo{
+    padding-left: 5%;
+    padding-top: 6%;
+   width: 60%;
+   margin: 20px auto;
+}
+.sectionTwo h3{
+    cursor: pointer;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.sectionTwo div{
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    display: none;
+}
+.countDown{
+    background-image: url(../img/modern-office-desk-join-us-260nw-515928577.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+margin-top: 10%;
+background-position:20 ;
+position: relative;
+}
+.demo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 100, 100, 0.6);
+
+}
+.clock{
+    padding-left: 10%;
+    padding-top: 10%;
+    margin:20px auto;
+    width: 100%;
+    font-size: 50;
+   color: white;
+   border: 50pc;
+
+}
+.days{
+margin-left: 15%;
+
+
+}
+.hours{
+    margin-left: 15%;
+}
+.minutes{
+    margin-left: 15%;
+}
+.seconds{
+    margin-left: 15%;
+}
+.container{
+    padding-top: 10%;
+}
+p{
+   margin: 20% auto;
+   color: #777;
+}
+.alone{
+    padding-left: 20%;
+  
+    color: #777;
+}
+.alone p{
+    padding-left: 10%;
+    text-align: center;
+  
+}
+ i{
+margin-top: 5%;
+
+}
+.social{
+width: 30%;
+height: 20%;
+padding-left: 20%;
+display: flex;
+justify-content: center;
+}
+.social i:hover{
+    /* background-color: rgb(177, 39, 39); */
+    color: rgb(177,39,39);
+}
+.social i{
+    margin: 6;
+    color: #777;
+
+}
+
+/* .textP{
+    padding-top: 100%;
+    margin: auto;
+} */
+.col-md-5 h2{
+    padding-bottom: 10%;
+}
+.contact{
+    width: 50%;
+    height: 50%;
+ margin-left: 50%;
+ padding-top: 20%;
+}
+.row{
+   margin: auto;
+}
